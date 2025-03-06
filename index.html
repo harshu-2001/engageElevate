@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engage Elevate | Social Media & Advertising</title>
+    <meta name="title" content="Engage Elevate | Social Media & Advertising" />
+    <meta
+      name="description"
+      content="Engage Elevate is a data-driven social media and Ad Tech agency dedicated to helping brands achieve their full online potential. We are a team of passionate strategists, creatives, and analysts who combine cutting-edge technology with deep industry expertise to deliver exceptional results."
+    />
+    <!-- Preload -->
+    <link rel="preload" href="assets/css/font.css" as="style" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      as="style"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load the Google Fonts stylesheets -->
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <!-- Style  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- favicon  -->
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="assets/images/Favicon.svg"
+    />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- splitting  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting-cells.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header  -->
+    <header
+      class="custom-header d-flex justify-content-between align-items-center"
+    >
+      <div class="d-flex align-items-end">
+        <div class="logo smallSize font-weight-bold">
+          <img src="assets/images/website_logo.png" alt="logo" />
+        </div>
+        <nav class="d-flex-nav">
+          <ul class="nav-links d-flex smallSize mb-0">
+            <li><a href="#About-Us">About Us</a></li>
+            <li><a href="#Services" onclick="serviceLinks()">Services</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contact-btn">
+        <a href="#form_action" class="btn btn-dark grow-btn-rev">
+          <span> Contact us </span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="send-icon icon"
+          >
+            <path
+              d="M12 5L12 19M12 19L19 12M12 19L5 12"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+
+        <div class="menu-icon">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+
+      <nav class="mobile-nav">
+        <ul class="nav-links pt-2">
+          <li><a href="#">Home</a></li>
+          <li><a href="#About-Us">About Us</a></li>
+          <li><a href="#Services" onclick="serviceLinks()">Services</a></li>
+          <li><a href="./blogs.html">Blogs</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+        </ul>
+        <div class="contact-btn w-100 m-0 p-1 mt-4">
+          <a href="#form_action" class="btn btn-dark grow-btn-rev w-100">
+            <span> Contact us </span>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="send-icon icon"
+            >
+              <path
+                d="M12 5L12 19M12 19L19 12M12 19L5 12"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero section  -->
+    <div
+      class="hero-section text-center d-flex flex-column justify-content-center align-items-center creative"
+    >
+      <div class="sliding-container">
+        <div class="slides-wrapper">
+          <h1>Engagement Solutions That Work</h1>
+          <h1>Elevating Every Interaction</h1>
+          <h1>Engagement Redefined</h1>
+          <h1>Engage Smarter, Perform Better</h1>
+        </div>
+      </div>
+      <div class="mt-3 z-index-99">
+        <h5>Real Results from Real Engagement Experts</h5>
+      </div>
+      <img src="./assets/images/hero-1.svg" alt="" srcset="" class="herosvg" />
+      <img
+        src="./assets/images/moment-hero.svg"
+        alt=""
+        srcset=""
+        class="herosvg1"
+      />
+      <div class="rainbow">
+        <img src="./assets/images/rainbow.png" alt="" srcset="" />
+      </div>
+    </div>
+
+    <!-- Partner section  -->
+    <section class="Partner-section" id="About-Us">
+      <div class="row align-items-center partner-content-wrap">
+        <div class="col-md-6">
+          <h3 class="dt-view-h3 d-none d-md-block">
+            Your Gatewa<span
+              >y<img
+                src="assets/images/partners-bg.png"
+                alt="Advertising"
+                class="image"
+            /></span>
+            <br />
+            to Social
+            <br />
+            Media Success!
+          </h3>
+          <h3 class="mobile-view-h3 d-block d-md-none">
+            Your Gateway to Social Media Success!""<span
+              ><img
+                src="assets/images/partners-bg.png"
+                alt="Advertising"
+                class="image"
+            /></span>
+          </h3>
+        </div>
+        <div class="col-md-6">
+          <p class="paraSize scroll_effect">
+            Engage Elevate is a leading social media agency that specializes in
+            crafting unique digital strategies for brands looking to excel
+            online. Our team of experts is dedicated to helping businesses
+            enhance their digital presence, engage with their target audience,
+            and achieve their marketing goals through innovative social media
+            solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards section  -->
+    <section class="Cards-section">
+      <div class="row m-0 p-0 card-sec-contain">
+        <!-- Card 1 -->
+        <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0 cardWrapper">
+          <div class="card">
+            <div class="card-body d-flex flex-wrap">
+              <div
+                class="row card-content-left m-0 p-0 w-100 flex-wrap-reverse"
+              >
+                <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0">
+                  <h3>10+</h3>
+                  <p class="paraSize d-block d-md-none">Publishers</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 text-end p-0"
+                >
+                  <img src="assets/images/1.gif" alt="" class="" />
+                </div>
+              </div>
+              <p class="paraSize d-none d-md-block">Publishers</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0 cardWrapper">
+          <div class="card">
+            <div class="card-body d-flex flex-wrap">
+              <div
+                class="row card-content-left m-0 p-0 w-100 flex-wrap-reverse"
+              >
+                <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0">
+                  <h3>45%</h3>
+                  <p class="paraSize d-block d-md-none">
+                    Increase in Week-over-Week <br />
+                    Revenue
+                  </p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 text-end p-0"
+                >
+                  <img src="assets/images/2.gif" alt="" class="" />
+                </div>
+              </div>
+              <p class="paraSize d-none d-md-block">
+                Increase in Week-over-Week <br />
+                Revenue
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0 cardWrapper">
+          <div class="card">
+            <div class="card-body d-flex flex-wrap">
+              <div
+                class="row card-content-left m-0 p-0 w-100 flex-wrap-reverse"
+              >
+                <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0">
+                  <h3>$12M+</h3>
+                  <p class="paraSize d-block d-md-none">
+                    Lifetime Ad Spend to Date
+                  </p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 text-end p-0"
+                >
+                  <img src="assets/images/3.gif" alt="" />
+                </div>
+              </div>
+              <p class="paraSize d-none d-md-block">
+                Lifetime Ad Spend to Date
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0 cardWrapper">
+          <div class="card">
+            <div class="card-body d-flex flex-wrap">
+              <div
+                class="row card-content-left m-0 p-0 w-100 flex-wrap-reverse"
+              >
+                <div class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 p-0">
+                  <h3>7B+</h3>
+                  <p class="paraSize d-block d-md-none">Requests Per Month</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-12 col-xl-6 col-xxl-6 text-end p-0"
+                >
+                  <img src="assets/images/4.gif" alt="" />
+                </div>
+              </div>
+              <p class="paraSize d-none d-md-block">Requests Per Month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section  -->
+    <section class="Services-section-main" id="Services">
+      <div class="secrvice-sec-wrap">
+        <h3>Services We Offer</h3>
+      </div>
+      <div class="my-4 services-section-boxes">
+        <div class="row pl-0 pr-0 display-prop flex-wrap-reverse">
+          <div class="col-lg-6 col-md-12 small-width small-margin">
+            <div class="tabs-container">
+              <div class="tab-content active" id="tab1">
+                <img
+                  src="assets/images/Featured_icon1.png"
+                  alt=""
+                  class="mb-2"
+                />
+                <div class="tab-title active mb-2">
+                  <h5 class="tab-titleh5 active">The Brand Framework</h5>
+                </div>
+                <p class="tab-description smallSize active">
+                  Engage Elevate empowers businesses to build meaningful
+                  connections and drive impactful growth. Elevate your
+                  engagement strategies while we streamline your performance.
+                  Whether it’s Social Media, Content Marketing, Email Campaigns,
+                  SEO, or Paid Advertising, ensure your efforts are optimized
+                  for maximum reach and results.
+                </p>
+              </div>
+              <div class="tab-content" id="tab2">
+                <img
+                  src="assets/images/Featured_icon2.png"
+                  alt=""
+                  class="mb-2"
+                />
+                <div class="tab-title mb-2">
+                  <h5 class="tab-titleh5">Instagram Reels Strategy</h5>
+                </div>
+                <p class="tab-description smallSize">
+                  Maximize your brand’s potential by leveraging the power of
+                  Instagram Reels. Capture your audience's attention with short,
+                  engaging, and visually captivating content designed to align
+                  with trending themes and user preferences. Enhance your reach
+                  by integrating contextually relevant ads that resonate with
+                  your viewers' experiences.
+                </p>
+              </div>
+              <div class="tab-content" id="tab3">
+                <img
+                  src="assets/images/Featured_icon3.png"
+                  alt=""
+                  class="mb-2"
+                />
+                <div class="tab-title mb-2">
+                  <h5 class="tab-titleh5">1-on-1 Stategy Session</h5>
+                </div>
+                <p class="tab-description smallSize">
+                  Unlock personalized solutions with a dedicated 1-on-1 strategy
+                  session. Collaborate to identify your goals, tackle
+                  challenges, and create a clear roadmap for success. Tailored
+                  insights, actionable steps, and expert guidance—all focused on
+                  driving your growth.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 small-width display-responsive">
+            <div class="image-container">
+              <img
+                src="assets/images/Content.png"
+                alt=""
+                id="img1"
+                class="active"
+              />
+              <img src="assets/images/Content2.png" alt="" id="img2" />
+              <img src="assets/images/Content3.png" alt="" id="img3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section from 1439px -->
+    <div class="service-section-mob d-none" id="Services-mob">
+      <div class="row service-section">
+        <div class="row mb-4">
+          <h3>Services We Offer</h3>
+        </div>
+
+        <!-- Card 1 -->
+        <div class="row mb-4 service-card">
+          <div class="col-md-5">
+            <div class="image-container"> 
+              <img
+                src="assets/images/Contentmob.png"
+                alt="Revenue Optimization Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content-container">
+              <img src="assets/images/Featured_icon1.png" alt="" class="mb-2" />
+              <h5 class="service-title">
+                Revenue Optimization Across All Streams
+              </h5>
+              <p class="service-description">
+                Increase yield across every channel using best-in-class
+                programmatic technology, while also enhancing user experience
+                and maintaining a high level of control over ad placements.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="row mb-4 service-card">
+          <div class="col-md-5">
+            <div class="image-container">
+              <img
+                src="assets/images/Contentmob2.png"
+                alt="Contextual Engine Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content-container">
+              <img src="assets/images/Featured_icon2.png" alt="" class="mb-2" />
+              <h5 class="service-title">Contextual Engine</h5>
+              <p class="service-description">
+                Our Contextual Engine provides enhanced targeting capabilities,
+                allowing you to deliver ads based on context rather than user
+                data. This ensures privacy while still driving engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="row mb-4 service-card">
+          <div class="col-md-5">
+            <div class="image-container">
+              <img
+                src="assets/images/Contentmob3.png"
+                alt="Granular Insights Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content-container">
+              <img src="assets/images/Featured_icon3.png" alt="" class="mb-2" />
+              <h5 class="service-title">Granular Insights</h5>
+              <p class="service-description">
+                Dive deep into your data to extract valuable insights that can
+                help shape your future strategies. Our tools offer granular
+                breakdowns to refine and optimize every aspect of your digital
+                operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How it Works Section  -->
+    <section class="how-it-works-wrapper text-center py-5" id="how-it-works">
+      <div class="how-it-works-sec">
+        <h3>How It Works</h3>
+        <p class="paraSize">
+          From Strategy to Success: Elevating Your Digital Presence.
+        </p>
+        <div class="row mt-5 feature-box-wrapper">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box py-5">
+              <div class="icon mb-3">
+                <img src="assets/images/icon1.png" alt="" />
+              </div>
+              <p class="paraSize">Plan</p>
+              <p class="smallSize">
+                Craft a tailored social media strategy aligned with your brand goals.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box py-5">
+              <div class="icon mb-3">
+                <img src="assets/images/icon2.png" alt="" />
+              </div>
+              <p class="paraSize">Create</p>
+              <p class="smallSize">
+                Develop engaging, visually stunning content that captivates your audience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box py-5">
+              <div class="icon mb-3">
+                <img src="assets/images/icon3.png" alt="" />
+              </div>
+              <p class="paraSize">Engage</p>
+              <p class="smallSize">
+                Foster meaningful connections and drive interactions across platforms.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box py-5">
+              <div class="icon mb-3">
+                <img src="assets/images/icon4.png" alt="" />
+              </div>
+              <p class="paraSize">Optimize</p>
+              <p class="smallSize">Analyze performance metrics and refine strategies for maximum ROI.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animation">
+        <svg width="2268" height="1304" viewBox="0 0 2268 1304" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg1">
+          <g style="mix-blend-mode:multiply" filter="url(#filter0_f_1038_232)">
+          <path d="M509.931 864.39C370.499 896.761 188.664 692.598 180.564 507.95C172.668 327.946 298.396 404.216 593.364 273.825C540.885 336.726 1145.24 212.971 1102.66 283.63C1060.08 354.288 791.349 565.947 730.453 631.152C669.557 696.356 649.362 832.019 509.931 864.39Z" fill="#A1A2A1" fill-opacity="0.45"/>
+          <path d="M1855.07 574.379C2077.56 519.827 1957.22 472.947 1734.74 224.907C1614.4 178.879 1389.12 155.013 1261.79 224.907C1134.46 294.802 1338.75 414.986 1338.75 512.156C1338.75 609.326 1632.59 628.93 1855.07 574.379Z" fill="#BEBEBE"/>
+          <path d="M1208.75 1086.53C1481.9 1019.66 1334.16 962.194 1061 658.146C913.261 601.725 636.671 572.469 480.337 658.146C324.004 743.823 574.825 891.145 574.825 1010.26C574.825 1129.37 935.594 1153.4 1208.75 1086.53Z" fill="#787C76" fill-opacity="0.45"/>
+          <path d="M1123.9 629.452C1195.33 469.579 1261.91 575.205 1555.05 599.913C1528.98 617.673 1513.84 651.778 1661.78 646.115C1846.7 639.036 1802.19 732.09 1841.35 829.329C1880.52 926.568 1888.95 1004.9 1740.66 1067.22C1592.37 1129.55 1581.78 1076.7 1434.94 1006.71C1288.09 936.71 1279.71 976.283 1138.68 874.417C997.643 772.552 1052.47 789.325 1123.9 629.452Z" fill="#C0BEBE"/>
+          <path d="M615.233 340.616C686.66 180.743 753.243 286.369 1046.38 311.076C1020.31 328.837 1005.17 362.942 1153.11 357.278C1338.03 350.2 1293.52 443.253 1332.69 540.492C1371.85 637.731 1380.28 716.063 1231.99 778.387C1083.7 840.711 1073.12 787.866 926.269 717.87C779.42 647.874 771.043 687.446 630.008 585.581C488.974 483.715 543.807 500.489 615.233 340.616Z" fill="#8D9489" fill-opacity="0.45"/>
+          <path d="M1345.32 385.267C1416.74 225.394 1483.33 331.02 1776.46 355.727C1750.4 373.488 1735.26 407.593 1883.19 401.93C2068.11 394.851 2023.6 487.905 2062.77 585.144C2101.94 682.383 2110.36 760.715 1962.08 823.039C1813.79 885.363 1803.2 832.518 1656.35 762.521C1509.5 692.525 1501.13 732.098 1360.09 630.232C1219.06 528.367 1273.89 545.14 1345.32 385.267Z" fill="#B3B7B0" fill-opacity="0.45"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_1038_232" x="0.214844" y="0.984863" width="2267.03" height="1302.23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_1038_232"/>
+          </filter>
+          </defs>
+        </svg>
+          
+          
+          
+
+          <svg width="1401" height="1136" viewBox="0 0 1401 1136" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg2">
+            <g filter="url(#filter0_f_1038_250)">
+            <path d="M376.858 742.827C293.692 769.365 185.235 601.992 180.403 450.618C175.694 303.05 250.686 365.577 426.622 258.682C395.321 310.249 755.797 208.794 730.398 266.72C704.999 324.646 544.713 498.164 508.391 551.618C472.069 605.073 460.023 716.289 376.858 742.827Z" fill="#1E1F1E" fill-opacity="0.45"/>
+            <path d="M1149.43 502.771C1282.14 458.05 1210.36 419.618 1077.66 216.275C1005.88 178.541 871.51 158.976 795.561 216.275C719.612 273.574 841.464 372.101 841.464 451.761C841.464 531.421 1016.73 547.493 1149.43 502.771Z" fill="#818181" fill-opacity="0.5"/>
+            <path d="M793.676 924.936C956.602 870.117 868.478 823.006 705.552 573.747C617.429 527.493 452.453 503.509 359.206 573.747C265.959 643.985 415.564 764.76 415.564 862.408C415.564 960.055 630.75 979.756 793.676 924.936Z" fill="#1E1F1E" fill-opacity="0.45"/>
+            <path d="M743.068 550.225C785.671 419.161 825.385 505.753 1000.23 526.008C984.684 540.568 975.651 568.527 1063.89 563.885C1174.19 558.081 1147.64 634.367 1171 714.083C1194.36 793.8 1199.39 858.016 1110.94 909.11C1022.49 960.203 1016.18 916.881 928.589 859.498C840.999 802.115 836.002 834.556 751.88 751.047C667.759 667.538 700.465 681.289 743.068 550.225Z" fill="#F6F6F6"/>
+            <path d="M439.667 313.437C482.27 182.373 521.985 268.965 696.829 289.22C681.283 303.78 672.251 331.74 760.489 327.097C870.788 321.294 844.24 397.579 867.601 477.296C890.963 557.012 895.988 621.228 807.541 672.322C719.093 723.415 712.778 680.093 625.188 622.71C537.598 565.327 532.602 597.768 448.48 514.259C364.359 430.75 397.065 444.501 439.667 313.437Z" fill="#B2BBAD" fill-opacity="0.45"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1038_250" x="0.195312" y="0.267578" width="1399.84" height="1134.75" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_1038_250"/>
+            </filter>
+            </defs>
+            </svg>
+            
+      </div>
+    </section>
+
+    <!-- Form section  -->
+    <section class="form-section-wrap" id="form_action">
+      <div class="row justify-content-center form-section no-gutters">
+        <div class="col-xl-3 col-lg-5 col-md-12 mb-4 mb-md-0 image-container">
+          <img src="assets/images/form-img.png" alt="Graphic Image" />
+        </div>
+        <div
+          class="col-xl-9 col-lg-7 col-md-12 pl-3 d-flex flex-column heading justify-content-between form-container-wrapper"
+        >
+          <h2 class="mb-4">
+            Ride the Wave <br />
+            of Success
+          </h2>
+          <form id="user-form" class="form-container" novalidate>
+            <div class="row gx-2">
+              <div class="mb-2 col-md-6">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
+                <p
+                  id="name-error"
+                  class="error-message mt-1 mb-2"
+                  style="display: none; font-size: 16px; color: red"
+                >
+                  Please enter a Name!
+                </p>
+              </div>
+              <div class="mb-2 col-md-6">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+                <p
+                  id="email-error"
+                  class="error-message mt-1 mb-2"
+                  style="display: none; font-size: 16px; color: red"
+                >
+                  Please enter a valid email!
+                </p>
+              </div>
+            </div>
+            <div class="row gx-2">
+              <div class="mb-2 col-md-6">
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="US +1 (555) 000-0000"
+                  required
+                />
+                <p
+                  id="phone-error"
+                  class="error-message mt-1 mb-2"
+                  style="display: none; font-size: 16px; color: red"
+                >
+                  Please enter a valid phone number!
+                </p>
+              </div>
+              <div class="mb-2 col-md-6">
+                <input
+                  type="text"
+                  id="company"
+                  class="form-control"
+                  placeholder="Company"
+                  required
+                />
+                <p
+                  id="website-error"
+                  class="error-message mt-1 mb-2"
+                  style="display: none; font-size: 16px; color: red"
+                >
+                  Please enter a company!
+                </p>
+              </div>
+            </div>
+            <div class="row gx-0">
+              <textarea
+                id="message"
+                class="form-control mb-2"
+                placeholder="Leave us a message"
+                rows="4"
+                required
+              ></textarea>
+              <p
+                id="message-error"
+                class="error-message mb-1 mb-2"
+                style="display: none; font-size: 16px; color: red"
+              >
+                Please enter a message!
+              </p>
+            </div>
+            <div class="d-flex justify-content-start align-items-center">
+              <div class="w-auto text-end py-1">
+                <button type="submit" class="btn btn-dark grow-btn" id="submit">
+                  <i class="bi bi-envelope click-icon"></i>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon click-icon"
+                  >
+                    <path
+                      d="M21.5 18L14.8571 12M9.14286 12L2.50003 18M2 7L10.1649 12.7154C10.8261 13.1783 11.1567 13.4097 11.5163 13.4993C11.8339 13.5785 12.1661 13.5785 12.4837 13.4993C12.8433 13.4097 13.1739 13.1783 13.8351 12.7154L22 7M6.8 20H17.2C18.8802 20 19.7202 20 20.362 19.673C20.9265 19.3854 21.3854 18.9265 21.673 18.362C22 17.7202 22 16.8802 22 15.2V8.8C22 7.11984 22 6.27976 21.673 5.63803C21.3854 5.07354 20.9265 4.6146 20.362 4.32698C19.7202 4 18.8802 4 17.2 4H6.8C5.11984 4 4.27976 4 3.63803 4.32698C3.07354 4.6146 2.6146 5.07354 2.32698 5.63803C2 6.27976 2 7.11984 2 8.8V15.2C2 16.8802 2 17.7202 2.32698 18.362C2.6146 18.9265 3.07354 19.3854 3.63803 19.673C4.27976 20 5.11984 20 6.8 20Z"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Send Message</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="send-icon icon"
+                  >
+                    <path
+                      d="M5 12L19 12M19 12L12 5M19 12L12 19"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <p
+              id="v_error"
+              class="mb-2"
+              style="display: none; font-size: 16px; color: red"
+            >
+              There was an error submitting the form.
+            </p>
+            <p
+              id="v_success"
+              class="mb-2"
+              style="display: none; font-size: 16px; color: green"
+            >
+              Form submitted successfully!
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section  -->
+    <footer class="footer p-4">
+      <div class="footer-sec">
+        <div class="row justify-content-between pb-2 mobile-footer">
+          <div class="mobile-contact-btn-section mb-3">
+            <img src="assets/images/website_logo.png" class="logo" alt="logo" />
+            <div class="d-flex d-md-none">
+              <a
+                href="https://www.linkedin.com/in/engage-elevate-379a41337/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="40"
+                  viewBox="0 0 45 46"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_451_71)">
+                    <path
+                      d="M38.25 0.105713H6.75C3.02208 0.105713 0 3.12779 0 6.85571V38.3557C0 42.0836 3.02208 45.1057 6.75 45.1057H38.25C41.9779 45.1057 45 42.0836 45 38.3557V6.85571C45 3.12779 41.9779 0.105713 38.25 0.105713Z"
+                      fill="#0077B5"
+                    />
+                    <path
+                      d="M13.3938 16.9928C14.998 16.9928 16.2984 15.6924 16.2984 14.0883C16.2984 12.4841 14.998 11.1837 13.3938 11.1837C11.7897 11.1837 10.4893 12.4841 10.4893 14.0883C10.4893 15.6924 11.7897 16.9928 13.3938 16.9928Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M21.401 18.4844V34.0277V18.4844ZM13.3938 18.4844V34.0277V18.4844Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M21.401 18.4844V34.0277M13.3938 18.4844V34.0277"
+                      stroke="white"
+                      stroke-width="5"
+                    />
+                    <path
+                      d="M23.913 25.3925C23.913 23.8225 24.9335 22.2524 26.7391 22.2524C28.6231 22.2524 29.3296 23.6655 29.3296 25.785V34.0277H34.5107V25.157C34.5107 20.3684 31.9987 18.1703 28.5446 18.1703C25.8756 18.1703 24.541 19.6619 23.913 20.6824"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_451_71">
+                      <rect
+                        width="45"
+                        height="45"
+                        fill="white"
+                        transform="translate(0 0.105713)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-lg-7 col-md-8 col-xl-6 col-xxl-6 ul-container d-md-block d-flex justify-content-between"
+          >
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#About-Us" class="nav-link smallSize">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#Services"
+                  class="nav-link smallSize"
+                  onclick="serviceLinks()"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#how-it-works" class="nav-link smallSize"
+                  >How It Works</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex d-md-none custom-md-btn">
+              <a href="#form_action" class="btn btn-dark grow-btn">
+                <span> Contact us </span>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="send-icon icon"
+                >
+                  <path
+                    d="M12 19V5M12 5L5 12M12 5L19 12"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-auto text-end d-none d-md-flex align-items-center gap-2"
+          >
+            <a href="https://www.linkedin.com/in/engage-elevate-379a41337/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="40"
+                viewBox="0 0 45 46"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_451_71)">
+                  <path
+                    d="M38.25 0.105713H6.75C3.02208 0.105713 0 3.12779 0 6.85571V38.3557C0 42.0836 3.02208 45.1057 6.75 45.1057H38.25C41.9779 45.1057 45 42.0836 45 38.3557V6.85571C45 3.12779 41.9779 0.105713 38.25 0.105713Z"
+                    fill="#0077B5"
+                  />
+                  <path
+                    d="M13.3938 16.9928C14.998 16.9928 16.2984 15.6924 16.2984 14.0883C16.2984 12.4841 14.998 11.1837 13.3938 11.1837C11.7897 11.1837 10.4893 12.4841 10.4893 14.0883C10.4893 15.6924 11.7897 16.9928 13.3938 16.9928Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21.401 18.4844V34.0277V18.4844ZM13.3938 18.4844V34.0277V18.4844Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21.401 18.4844V34.0277M13.3938 18.4844V34.0277"
+                    stroke="white"
+                    stroke-width="5"
+                  />
+                  <path
+                    d="M23.913 25.3925C23.913 23.8225 24.9335 22.2524 26.7391 22.2524C28.6231 22.2524 29.3296 23.6655 29.3296 25.785V34.0277H34.5107V25.157C34.5107 20.3684 31.9987 18.1703 28.5446 18.1703C25.8756 18.1703 24.541 19.6619 23.913 20.6824"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_451_71">
+                    <rect
+                      width="45"
+                      height="45"
+                      fill="white"
+                      transform="translate(0 0.105713)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="#form_action" class="btn btn-dark grow-btn">
+              <span> Contact us </span>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="send-icon icon"
+              >
+                <path
+                  d="M12 19V5M12 5L5 12M12 5L19 12"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <div class="row">
+          <div class="col copyright">
+            <small>© 2025 Engage Elevate. All rights reserved.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

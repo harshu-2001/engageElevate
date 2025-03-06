@@ -1,0 +1,102 @@
+@import "variables.scss";
+
+body {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: $font-normal;
+}
+p {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: $font-medium;
+}
+// font sizes
+.fs-1{
+  font-size: 2.5rem;
+}
+.fs-2{
+  font-size: 2rem;
+}
+.fs-3{
+  font-size: 1.75rem;
+}
+.fs-4{
+  font-size: 1.5rem;
+}
+.fs-5{
+  font-size: 1.25rem;
+}
+.fs-6{
+  font-size: 1rem;
+}
+.fs-7{
+  font-size: 0.875rem;
+}
+.fs-8{
+  font-size: 0.75rem;
+}
+.fs-9{
+  font-size: 0.625rem;
+}
+.fs-10{
+  font-size: 0.5rem;
+}
+
+span {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+h3,
+h5,
+h2 {
+  font-weight: $font-bold;
+}
+.hero-section{
+  h5{
+    font-weight: $font-normal;
+  }
+}
+.Partner-section{
+  h3{
+    font-weight: $font-medium;
+  }
+}
+
+.card-body {
+  p {
+    font-weight: $font-medium;
+  }
+
+  h3 {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+.how-it-works-wrapper {
+  .feature-box-wrapper {
+    .paraSize{
+      font-weight: $font-medium;
+    }
+  }
+}
+
+.btn-dark {
+  font-weight: $font-bold;
+}
+
+.footer {
+  .nav {
+    .nav-item {
+      .nav-link {
+        font-weight: $font-medium;
+      }
+    }
+  }
+}
