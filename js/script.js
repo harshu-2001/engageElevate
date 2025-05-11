@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
             contact_btn.style.display = "none";
             // Open animation
             gsap.to(mobileNav, {
-                duration: 0.4,
+                duration: 0.2,
                 display: "flex",
                 maxHeight: "350px",
                 opacity: 1,
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     opacity: 1,
                     x: "0%",
                     stagger: 0.1,
-                    duration: 0.3,
+                    duration: 0.1,
                     ease: "power2.out",
                 }
             );
